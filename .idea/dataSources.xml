@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="PostgreSQL" uuid="9323a59a-a3f0-4680-b656-e2382533dbe9">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>prisma+postgres://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiMjhjODYzNWItNWI3My00MTQxLWI1ZDUtYjE2ZWQ2NDQxMWZkIiwidGVuYW50X2lkIjoiYzRlMjAxMDZhOGJjZjJhOTc2YTIwODdkMWQwYzMyMWQ2MWVhZDk0YjNjZDY2ZDQ5YThmMWY5ZWQyOTJlNjMzMSIsImludGVybmFsX3NlY3JldCI6IjA0ODljODExLTlkMzUtNDVjNi04MDk0LThkYTJhOTcxZDVlZCJ9.WXM4tcw9UDZhjq66saxRGlxm8nIcqV9VomOG9F9fWf4</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>
