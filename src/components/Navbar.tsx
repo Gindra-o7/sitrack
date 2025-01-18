@@ -258,18 +258,13 @@ const Navbar: React.FC<NavbarProps> = ({role}) => {
             {href: '/dosen-penguji', icon: LayoutDashboard, title: 'Dashboard'}
         ],
         dosen_pembimbing: [
-            {href: '/dosen-pembimbing', icon: LayoutDashboard, title: 'Dashboard'},
-            {href: '/dosen-pembimbing/mahasiswa', icon: GraduationCap, title: 'Mahasiswa Bimbingan'},
-            {href: '/dosen-pembimbing/nilai', icon: ClipboardCheck, title: 'Input Nilai'},
+            {href: '/dosen-pembimbing', icon: LayoutDashboard, title: 'Dashboard'}
         ],
         pembimbing_instansi: [
             {href: '/pembimbing-instansi', icon: LayoutDashboard, title: 'Dashboard'},
-            {href: '/pembimbing-instansi/mahasiswa', icon: Building2, title: 'Mahasiswa Magang'},
-            {href: '/pembimbing-instansi/nilai', icon: ClipboardCheck, title: 'Input Nilai'},
         ],
         kaprodi: [
             {href: '/kaprodi', icon: LayoutDashboard, title: 'Dashboard'},
-            {href: '/kaprodi/visualisasi', icon: BarChart3, title: 'Visualisasi Data'},
         ],
     };
 
@@ -280,9 +275,7 @@ const Navbar: React.FC<NavbarProps> = ({role}) => {
             <div className="border-b">
                 <div className="flex h-16 items-center px-4">
                     <div className="mr-6 font-semibold">
-                        {role.split('_').map(word =>
-                            word.charAt(0).toUpperCase() + word.slice(1)
-                        ).join(' ')}
+                        SITRACK
                     </div>
                     <NavigationMenu>
                         <NavigationMenuList>
