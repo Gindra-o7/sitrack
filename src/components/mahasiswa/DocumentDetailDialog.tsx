@@ -11,7 +11,7 @@ interface DocumentDetailDialogProps {
 const DocumentDetailDialog: React.FC<DocumentDetailDialogProps> = ({ document }) => (
     <Dialog>
         <DialogTrigger asChild>
-            <Button variant="ghost" size="sm">
+            <Button variant="outline" size="sm">
                 Detail
             </Button>
         </DialogTrigger>
