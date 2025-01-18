@@ -30,6 +30,7 @@ export interface TemplateDocument {
     description: string;
     lastUpdated: string;
     fileSize: string;
-    category: "proposal" | "laporan" | "form";
+    category: string;
     downloadUrl: string;
+    cloudinaryUrl: string;
 }
