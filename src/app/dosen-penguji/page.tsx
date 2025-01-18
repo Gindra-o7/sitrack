@@ -465,10 +465,6 @@ const DosenPengujiPage = () => {
                             />
                         </DialogContent>
                     </Dialog>
-                    <Button className="flex items-center gap-2">
-                        <Clock className="w-4 h-4"/>
-                        Jadwal Hari Ini
-                    </Button>
                 </div>
             </div>
 
